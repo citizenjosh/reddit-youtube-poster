@@ -1,1 +1,11 @@
 name: around-poster
+version: 0.0.3
+permissions:
+  reddit_api: true
+  scheduler: true
+  redis: true
+  http:
+    enable: true
+    domains:
+      - www.youtube.com
+      - youtube.com
